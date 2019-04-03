@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--fromXDelta（开始平移的ｘ坐标）
+        fillAfter（是否记录终止位置，如果为true则会停止在最终位置）
+        toXDelta（停止平移的X坐标位置）
+        interpolator（设置加速过程，加速的形式很多，比如先加后减、自由落体的效果等）-->
+    <translate
+        android:duration="1000"
+        android:fillAfter="false"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:toXDelta="200"
+        android:toYDelta="200">
+
+    </translate>
+</set>

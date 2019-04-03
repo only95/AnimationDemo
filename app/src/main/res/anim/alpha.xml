@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    fromAlpha（开始的透明度）
+    toAlpha（结束时的透明度）
+    repeatCount（重复次数）
+    duration（使用时长，毫秒为单位）
+    -->
+    <alpha
+        android:fromAlpha="0.2"
+        android:toAlpha="1.0"
+        android:duration="1000"
+        android:repeatCount="1">
+
+    </alpha>
+</set>
